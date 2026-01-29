@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useInvite } from '../contexts/InviteContext';
 import { FileText, Image, BookOpen, Info, Shield, TrendingUp, Users, ChevronRight, Gift, AlertCircle } from 'lucide-react';
+import EarningsCalculator from '../components/EarningsCalculator';
 
 export default function Home() {
   const { t } = useLanguage();
@@ -159,6 +160,12 @@ export default function Home() {
         </div>
         <ChevronRight className="w-5 h-5 text-gray-400 flex-shrink-0" />
       </Link>
+
+      {/* 收益计算器 */}
+      <div className="mt-6">
+        <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">{t('calculator.sectionTitle')}</h2>
+        <EarningsCalculator />
+      </div>
     </div>
   );
 }
