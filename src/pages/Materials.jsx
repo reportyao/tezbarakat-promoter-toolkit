@@ -73,60 +73,7 @@ export default function Materials() {
       fallbackUrl: 'https://earn.tezbarakat.com/images/06-SpinWheel-Poster-TJ.png',
       official: true 
     },
-    { 
-      id: 7, 
-      titleTj: 'Барои донишҷӯён', 
-      titleZh: '给学生', 
-      titleRu: 'Для студентов', 
-      localUrl: 'https://earn.tezbarakat.com/images/poster-student.png',
-      fallbackUrl: 'https://earn.tezbarakat.com/images/poster-student.png',
-      official: false 
-    },
-    { 
-      id: 8, 
-      titleTj: 'Оилаи хушбахт', 
-      titleZh: '幸福家庭', 
-      titleRu: 'Счастливая семья', 
-      localUrl: 'https://earn.tezbarakat.com/images/poster-family.png',
-      fallbackUrl: 'https://earn.tezbarakat.com/images/poster-family.png',
-      official: false 
-    },
-    { 
-      id: 9, 
-      titleTj: 'Telegram-ро кушоед', 
-      titleZh: '打开Telegram', 
-      titleRu: 'Откройте Telegram', 
-      localUrl: 'https://earn.tezbarakat.com/images/poster-telegram.png',
-      fallbackUrl: 'https://earn.tezbarakat.com/images/poster-telegram.png',
-      official: false 
-    },
-    { 
-      id: 10, 
-      titleTj: 'Табрик! Ғолиб!', 
-      titleZh: '恭喜！获胜！', 
-      titleRu: 'Поздравляем! Победа!', 
-      localUrl: 'https://earn.tezbarakat.com/images/poster-winner.png',
-      fallbackUrl: 'https://earn.tezbarakat.com/images/poster-winner.png',
-      official: false 
-    },
-    { 
-      id: 11, 
-      titleTj: 'Системаи комиссия', 
-      titleZh: '佣金系统', 
-      titleRu: 'Система комиссий', 
-      localUrl: 'https://earn.tezbarakat.com/images/poster-commission.png',
-      fallbackUrl: 'https://earn.tezbarakat.com/images/poster-commission.png',
-      official: false 
-    },
-    { 
-      id: 12, 
-      titleTj: 'Даромади иловагӣ', 
-      titleZh: '额外收入', 
-      titleRu: 'Дополнительный доход', 
-      localUrl: 'https://earn.tezbarakat.com/images/poster-earn-money.png',
-      fallbackUrl: 'https://earn.tezbarakat.com/images/poster-earn-money.png',
-      official: false 
-    },
+
   ];
 
   // 文案数据 - 完整的推广文案
