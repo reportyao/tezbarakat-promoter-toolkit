@@ -103,17 +103,7 @@ export default function Layout({ children }) {
           </div>
         </div>
 
-        {inviteCode && (
-          <div className="bg-yellow-400 text-green-800 px-4 py-2 text-center text-sm font-medium">
-            <span>✅ {t('invite.linkReady')} </span>
-            <button 
-              onClick={() => copyToClipboard(inviteLink)}
-              className="underline font-bold"
-            >
-              {t('invite.copyLink')}
-            </button>
-          </div>
-        )}
+
       </header>
 
       <main className="px-4 py-4">{children}</main>
